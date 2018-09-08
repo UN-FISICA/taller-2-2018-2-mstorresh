@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+from turtle import *
+colormode(1)
+pensize(5)
+hideturtle()
+def cuadro(x):
+    for i in range(4):
+        fd(x)
+        rt(90)
+penup()
+goto(150,200)
+pendown()
+cuadro(100)
+penup()
+sety(-150)
+pendown()
+cuadro(100)
+penup()
+setx(-200)
+pendown()
+cuadro(100)
+penup()
+sety(200)
+pendown()
+cuadro(100)
