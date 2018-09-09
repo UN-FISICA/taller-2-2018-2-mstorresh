@@ -11,7 +11,7 @@ def figura(x):
                 y=-180+(l-2)*180/l
                 fd(x)
                 rt(y)
-                print(y)
+                
 d=0
 for j in range(a,0,-1):
     c=0
