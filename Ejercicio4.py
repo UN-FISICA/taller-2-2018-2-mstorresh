@@ -3,6 +3,7 @@ from turtle import *
 import math as m
 b=int(input("numero de lados de las figuras en los bordes : "))
 a=int(input("numero de filas de la piramide: "))
+hideturtle()
 for l in range(b): 
     if b==2+l:
         y=180-(b-2)*180/b 
@@ -13,7 +14,6 @@ def figura(x):
 d=0
 for j in range(a,0,-1):
     c=0
-    print(j)
     while c<j:
         penup()
         seth(90-180/a)
