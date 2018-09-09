@@ -25,3 +25,4 @@ def cuadrado(z):
         cuadro(d2)
         T1.rt(-90) 
 cuadrado(100)
+exitonclick()
