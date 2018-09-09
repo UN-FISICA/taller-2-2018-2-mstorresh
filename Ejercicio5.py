@@ -3,8 +3,7 @@
 from turtle import *
 import math as m
 a=int(input("numero de filas de la piramide: "))
-#hideturtle()
-
+hideturtle()
 def figura(x):
     for l in range(a+2,2,-1):
         if l==j+2:
@@ -17,13 +16,13 @@ d=0
 for j in range(a,0,-1):
     c=0
     while c<j:
-        #penup()
+        penup()
         seth(90-180/a)
         fd(25/m.sqrt(1/a)+20)
         seth(0)
-        #pendown()
+        pendown()
         figura(50)
-        #penup()
+        penup()
         right(90+180/a)
         fd(25/m.sqrt(1/a)+20)
         seth(0)
