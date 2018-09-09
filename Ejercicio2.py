@@ -30,3 +30,4 @@ def cuadro(z):
         figura(d2)
         T1.rt(-90)        
 cuadro(D1)
+exitonclick()
