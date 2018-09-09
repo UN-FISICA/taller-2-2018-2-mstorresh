@@ -6,7 +6,7 @@ a=int(input("numero de filas de la piramide: "))
 hideturtle()
 for l in range(b): 
     if b==2+l:
-        y=180-(b-2)*180/b 
+        y=-180+(b-2)*180/b 
 def figura(x):
     for i in range(b):
         fd(x)
