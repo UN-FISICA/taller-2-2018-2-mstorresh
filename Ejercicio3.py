@@ -11,7 +11,7 @@ l=int(input("numero de lados del poligono base "))
 D1=100  #dimension del cuadrado grande
 d2=20   #dimension de las figuras en los bordes
 d3=d2/2
-for j in range(a):
+for j in range(a): 
     if a==2+j:
         y=-180+(a-2)*180/a 
 for j in range(l):
@@ -34,3 +34,4 @@ def fig(z):
         figura(d2)
         T1.rt(k)        
 fig(D1)
+exitonclick()
