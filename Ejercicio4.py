@@ -4,7 +4,7 @@ import math as m
 b=int(input("numero de lados de las figuras en los bordes : "))
 a=int(input("numero de filas de la piramide: "))
 hideturtle()
-for l in range(b): 
+for l in range(b): #este pudo haber estado dentro del otro for
     if b==2+l:
         y=-180+(b-2)*180/b 
 def figura(x):
