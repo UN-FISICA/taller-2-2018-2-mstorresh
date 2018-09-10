@@ -22,7 +22,7 @@ def figura(x):
         T2.fd(x)
         T2.rt(y)
 def fig(z):
-    for i in range(a):
+    for i in range(l):
         T1.penup()
         T1.fd(z)
         T2.pendown()
