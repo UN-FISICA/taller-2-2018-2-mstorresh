@@ -36,6 +36,6 @@ for j in range(a,0,-1):
         T1.seth(0)
         T1.fd(88)
         c += 1    
-    T1.setposition((d+1)*40,((d+1)*100))       
+    T1.setposition((d+1)*40,((d+1)*100))    #el d para subirlo   
     d +=  1
 exitonclick()
