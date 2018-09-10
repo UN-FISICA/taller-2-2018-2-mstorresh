@@ -3,7 +3,7 @@ from turtle import *
 T1=Turtle()
 T2=Turtle()
 T2.pensize(5)
-T1.hideturtle()
+T1.hideturtle() 
 T2.hideturtle()
 D1=100  #dimension del cuadrado grande
 d2=20   #dimension de las figuras en los bordes
