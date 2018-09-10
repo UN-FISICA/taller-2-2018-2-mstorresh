@@ -7,7 +7,7 @@ T2.pensize(5)
 T1.hideturtle()
 T2.hideturtle()
 a=int(input("numero de lados: "))
-D1=100  #dimension del cuadrado grande
+D1=100  #dimension del cuadrado grande 
 d2=20   #dimension de las figuras en los bordes
 d3=d2/2
 for j in range(a):
