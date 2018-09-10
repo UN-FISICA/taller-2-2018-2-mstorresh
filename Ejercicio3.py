@@ -8,7 +8,7 @@ T1.hideturtle()
 T2.hideturtle()
 a=int(input("numero de lados de las figuras en los bordes : "))
 l=int(input("numero de lados del poligono base "))
-D1=100  #dimension del cuadrado grande
+D1=100  #dimension del cuadrado grande 
 d2=20   #dimension de las figuras en los bordes
 d3=d2/2
 for j in range(a): 
